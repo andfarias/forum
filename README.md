@@ -2,7 +2,7 @@
 
 ## 📝 Sobre
 
-Spring Boot API REST: construa uma API
+Spring Boot API REST
 
 ## 🧪 Tecnologias
 
