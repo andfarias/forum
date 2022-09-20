@@ -9,7 +9,7 @@ Spring Boot API REST
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - Java 17
-- Spring Boot 2.7.3
+- Spring Boot 2.5.2
 
 ---
 
