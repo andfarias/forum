@@ -1,7 +1,6 @@
 package br.com.andersonfariasdev.forum.config.security;
 
 import br.com.andersonfariasdev.forum.reposittory.UsuarioRepository;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -20,7 +19,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 @EnableWebSecurity
 @Configuration
-@Profile("prod")
+@Profile(value = {"prod", "test"})
 public class SecurityConfigurations extends WebSecurityConfigurerAdapter {
 
     @Autowired
